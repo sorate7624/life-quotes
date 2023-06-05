@@ -39,7 +39,7 @@ export const App = () => {
   };
 
   return (
-    <div className='text-center'>
+    <div className='text-center max-w-screen-xl'>
       <h1 className='font-black mb-20 opacity-50 text-3xl sm:text-7xl leading-normal'>Random Quote Generator</h1>
       <TypeAnimation
         sequence={[

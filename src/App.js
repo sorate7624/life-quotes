@@ -95,7 +95,7 @@ export var App = function () {
             }
         });
     }); };
-    return (_jsxs("div", __assign({ className: 'text-center' }, { children: [_jsx("h1", __assign({ className: 'font-black mb-20 opacity-50 text-3xl sm:text-7xl leading-normal' }, { children: "Random Quote Generator" })), _jsx(TypeAnimation, { sequence: [
+    return (_jsxs("div", __assign({ className: 'text-center max-w-screen-xl' }, { children: [_jsx("h1", __assign({ className: 'font-black mb-20 opacity-50 text-3xl sm:text-7xl leading-normal' }, { children: "Random Quote Generator" })), _jsx(TypeAnimation, { sequence: [
                     translatedText
                 ], wrapper: 'p', cursor: true, className: 'text-3xl mb-8 font-black leading-normal' }, translatedText), _jsx("p", __assign({ className: 'text-lg sm:text-2xl mb-4 leading-normal' }, { children: quote.text })), _jsxs("p", __assign({ className: 'font-bold text-lg sm:text mb-8 leading-normal' }, { children: ["- ", quote.author, " (", translatedAuthor, ")"] })), _jsx("button", __assign({ onClick: handleClick, className: 'bg-neutral-900' }, { children: "New Quote" }))] })));
 };
